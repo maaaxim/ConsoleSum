@@ -1,0 +1,19 @@
+{
+    "name": "maxim/console-sum",
+    "description": "My console app for otus",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Loboda",
+            "email": "maxim.loboda@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maaaxim\\": "src"
+        }
+    }
+}
